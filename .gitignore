@@ -1,0 +1,12 @@
+Politicl.xcodeproj/project.xcworkspace/xcuserdata/
+Politicl.xcworkspace/
+
+
+.idea/
+
+Carthage/Build/Mac/
+Carthage/Build/tvOS/
+Carthage/Build/watchOS/
+
+Carthage/Checkouts/
+

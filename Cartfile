@@ -1,0 +1,7 @@
+# Release Libraries
+github "CocoaLumberjack/CocoaLumberjack"
+
+#Test Libraries
+github "facebook/ios-snapshot-test-case"
+github "Quick/Nimble"
+github "Quick/Quick"
