@@ -21,13 +21,13 @@ class PostCategoryItem {
 
 
     init(json: JSON){
-        id = json["id"].stringValue
+        id = json["id"].intValue
         slug = json["slug"].stringValue
         title = json["title"].stringValue
         descrip = json["description"].stringValue
 
         parent = json["parent"].stringValue
-        post_count = json["post_count"].stringValue
+        post_count = json["post_count"].intValue
     }
 
 

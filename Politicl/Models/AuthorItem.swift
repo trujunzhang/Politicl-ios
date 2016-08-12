@@ -19,10 +19,10 @@ class AuthorItem{
     var nickname: String?
 
     var url: String?
-    override var descrip : String = ""
+    var descrip : String = ""
 
     init(json: JSON){
-         id = json["id"].stringValue
+         id = json["id"].intValue
          slug = json["slug"].stringValue
          name = json["name"].stringValue
          first_name = json["first_name"].stringValue
