@@ -12,12 +12,13 @@
 		587F34B01EE609FD08E5B973 /* Pods_PoliticlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1641BADA357CB695D2FDB89A /* Pods_PoliticlTests.framework */; };
 		5E1198DF1D5D6AF800B911A3 /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1198DE1D5D6AF800B911A3 /* Directory.swift */; };
 		5E253E7E1D5C3DB000F8FEAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E253E7D1D5C3DB000F8FEAA /* AppDelegate.swift */; };
-		5E253E801D5C3DB000F8FEAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E253E7F1D5C3DB000F8FEAA /* ViewController.swift */; };
 		5E253E831D5C3DB000F8FEAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E253E811D5C3DB000F8FEAA /* Main.storyboard */; };
 		5E253E851D5C3DB000F8FEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E253E841D5C3DB000F8FEAA /* Assets.xcassets */; };
 		5E253E881D5C3DB000F8FEAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E253E861D5C3DB000F8FEAA /* LaunchScreen.storyboard */; };
 		5E253E931D5C3DB000F8FEAA /* PoliticlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E253E921D5C3DB000F8FEAA /* PoliticlTests.swift */; };
 		5E253E9E1D5C3DB000F8FEAA /* PoliticlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E253E9D1D5C3DB000F8FEAA /* PoliticlUITests.swift */; };
+		5E2678011D5DE5080081C4F4 /* LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2677FE1D5DE5080081C4F4 /* LGSideMenuController.m */; };
+		5E2678021D5DE5080081C4F4 /* UIViewController+LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2678001D5DE5080081C4F4 /* UIViewController+LGSideMenuController.m */; };
 		5E79866D1D5CBA20008087C9 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7986681D5CBA20008087C9 /* CocoaLumberjack.framework */; };
 		5E79866E1D5CBA20008087C9 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7986691D5CBA20008087C9 /* CocoaLumberjackSwift.framework */; };
 		5E82CFB21D5D640000B4CD7E /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7986681D5CBA20008087C9 /* CocoaLumberjack.framework */; };
@@ -30,6 +31,8 @@
 		5E82CFBA1D5D645500B4CD7E /* FBSnapshotTestCase.framework in Embed Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 5E79866A1D5CBA20008087C9 /* FBSnapshotTestCase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5E82CFBD1D5D64EE00B4CD7E /* CodeFileLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E82CFBC1D5D64EE00B4CD7E /* CodeFileLocationTests.m */; };
 		5E9598B91D5D7FE600858B64 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9598B81D5D7FE600858B64 /* LeftViewController.swift */; };
+		5ED31A321D5DE42C00DA3332 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED31A301D5DE42C00DA3332 /* MainViewController.swift */; };
+		5ED31A331D5DE42C00DA3332 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED31A311D5DE42C00DA3332 /* NavigationController.swift */; };
 		5EDE37A81D5D697900C0D0FD /* QuickExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDE37A71D5D697900C0D0FD /* QuickExampleTests.swift */; };
 		5EF43FA91D5C7AC500214FEA /* NSArray+BKIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF43F4A1D5C7AC500214FEA /* NSArray+BKIndex.m */; };
 		5EF43FAA1D5C7AC500214FEA /* NSArray+WMFExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF43F4B1D5C7AC500214FEA /* NSArray+WMFExtensions.swift */; };
@@ -122,7 +125,6 @@
 		5E1198DE1D5D6AF800B911A3 /* Directory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Directory.swift; sourceTree = "<group>"; };
 		5E253E7A1D5C3DB000F8FEAA /* Politicl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Politicl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E253E7D1D5C3DB000F8FEAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E253E7F1D5C3DB000F8FEAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E253E821D5C3DB000F8FEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E253E841D5C3DB000F8FEAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E253E871D5C3DB000F8FEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -133,6 +135,10 @@
 		5E253E991D5C3DB000F8FEAA /* PoliticlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoliticlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E253E9D1D5C3DB000F8FEAA /* PoliticlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticlUITests.swift; sourceTree = "<group>"; };
 		5E253E9F1D5C3DB000F8FEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E2677FD1D5DE5080081C4F4 /* LGSideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuController.h; sourceTree = "<group>"; };
+		5E2677FE1D5DE5080081C4F4 /* LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuController.m; sourceTree = "<group>"; };
+		5E2677FF1D5DE5080081C4F4 /* UIViewController+LGSideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LGSideMenuController.h"; sourceTree = "<group>"; };
+		5E2678001D5DE5080081C4F4 /* UIViewController+LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LGSideMenuController.m"; sourceTree = "<group>"; };
 		5E7986681D5CBA20008087C9 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
 		5E7986691D5CBA20008087C9 /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjackSwift.framework; path = Carthage/Build/iOS/CocoaLumberjackSwift.framework; sourceTree = "<group>"; };
 		5E79866A1D5CBA20008087C9 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSnapshotTestCase.framework; path = Carthage/Build/iOS/FBSnapshotTestCase.framework; sourceTree = "<group>"; };
@@ -141,6 +147,8 @@
 		5E82CFBC1D5D64EE00B4CD7E /* CodeFileLocationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeFileLocationTests.m; sourceTree = "<group>"; };
 		5E82CFC11D5D665B00B4CD7E /* PoliticlTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PoliticlTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		5E9598B81D5D7FE600858B64 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		5ED31A301D5DE42C00DA3332 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5ED31A311D5DE42C00DA3332 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		5EDE37A71D5D697900C0D0FD /* QuickExampleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickExampleTests.swift; sourceTree = "<group>"; };
 		5EE655821D5C3EDF00D8034A /* Politicl-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Politicl-Bridging-Header.h"; sourceTree = "<group>"; };
 		5EF43F491D5C7AC500214FEA /* NSArray+BKIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BKIndex.h"; sourceTree = "<group>"; };
@@ -311,6 +319,7 @@
 		5E253E7C1D5C3DB000F8FEAA /* Politicl */ = {
 			isa = PBXGroup;
 			children = (
+				5E2677FC1D5DE5080081C4F4 /* LGSideMenuController */,
 				5E9598BB1D5D7FFE00858B64 /* Supporting Files */,
 				5E9598BA1D5D7FEB00858B64 /* UI */,
 				5E1198DD1D5D6AE500B911A3 /* Quick */,
@@ -341,6 +350,17 @@
 			path = PoliticlUITests;
 			sourceTree = "<group>";
 		};
+		5E2677FC1D5DE5080081C4F4 /* LGSideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				5E2677FD1D5DE5080081C4F4 /* LGSideMenuController.h */,
+				5E2677FE1D5DE5080081C4F4 /* LGSideMenuController.m */,
+				5E2677FF1D5DE5080081C4F4 /* UIViewController+LGSideMenuController.h */,
+				5E2678001D5DE5080081C4F4 /* UIViewController+LGSideMenuController.m */,
+			);
+			path = LGSideMenuController;
+			sourceTree = "<group>";
+		};
 		5E82CFBB1D5D64EE00B4CD7E /* Code */ = {
 			isa = PBXGroup;
 			children = (
@@ -362,9 +382,10 @@
 		5E9598BA1D5D7FEB00858B64 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				5E253E7F1D5C3DB000F8FEAA /* ViewController.swift */,
-				5E9598B81D5D7FE600858B64 /* LeftViewController.swift */,
+				5ED31A301D5DE42C00DA3332 /* MainViewController.swift */,
+				5ED31A311D5DE42C00DA3332 /* NavigationController.swift */,
 				5E253E811D5C3DB000F8FEAA /* Main.storyboard */,
+				5E9598B81D5D7FE600858B64 /* LeftViewController.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -937,9 +958,9 @@
 				5EF43FB11D5C7AC500214FEA /* NSMutableSet+WMFSafeAdd.m in Sources */,
 				5EF43FC81D5C7AC500214FEA /* UITableViewController+WMFScrollToTop.swift in Sources */,
 				5EF43FE41D5C7DB300214FEA /* DDLog+WMFLogger.m in Sources */,
-				5E253E801D5C3DB000F8FEAA /* ViewController.swift in Sources */,
 				5EF43FC61D5C7AC500214FEA /* UIView+WMFSnapshotting.m in Sources */,
 				5EF43FC21D5C7AC500214FEA /* UIView+RemoveConstraints.m in Sources */,
+				5E2678011D5DE5080081C4F4 /* LGSideMenuController.m in Sources */,
 				5EF43FAC1D5C7AC500214FEA /* NSArray+WMFPredicate.swift in Sources */,
 				5EF43FCB1D5C7AC500214FEA /* UIVIewController+WMFCommonRotationSupport.swift in Sources */,
 				5EF43FC11D5C7AC500214FEA /* UIView+IBExtras.swift in Sources */,
@@ -955,7 +976,9 @@
 				5E1198DF1D5D6AF800B911A3 /* Directory.swift in Sources */,
 				5EF43FB21D5C7AC500214FEA /* NSProcessInfo+WMFOperatingSystemVersionChecks.m in Sources */,
 				5E253E7E1D5C3DB000F8FEAA /* AppDelegate.swift in Sources */,
+				5E2678021D5DE5080081C4F4 /* UIViewController+LGSideMenuController.m in Sources */,
 				5EF43FD21D5C7AC500214FEA /* WMFMath.m in Sources */,
+				5ED31A331D5DE42C00DA3332 /* NavigationController.swift in Sources */,
 				5EF43FAD1D5C7AC500214FEA /* NSDictionary+WMFExtensions.m in Sources */,
 				5EF43FB61D5C7AC500214FEA /* NSString+FormattedAttributedString.m in Sources */,
 				5EF43FC91D5C7AC500214FEA /* UIViewController+SafePreviewing.swift in Sources */,
@@ -973,6 +996,7 @@
 				5EF43FAE1D5C7AC500214FEA /* NSIndexSet+BKReduce.m in Sources */,
 				5EF43FC01D5C7AC500214FEA /* UIView+Debugging.m in Sources */,
 				5EF43FAB1D5C7AC500214FEA /* NSArray+WMFMapping.m in Sources */,
+				5ED31A321D5DE42C00DA3332 /* MainViewController.swift in Sources */,
 				5EF43FE61D5C7DB300214FEA /* WMFLogFormatter.m in Sources */,
 				5EF43FB51D5C7AC500214FEA /* NSCharacterSet+WMFExtras.m in Sources */,
 				5EF43FC71D5C7AC500214FEA /* UIViewController+WMFOpenExternalUrl.m in Sources */,

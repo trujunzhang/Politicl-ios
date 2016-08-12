@@ -9,8 +9,14 @@
 #import <Masonry/Masonry.h>
 #import <BlocksKit/BlocksKit.h>
 #import <BlocksKit/BlocksKit+UIKit.h>
-#import <AFNetworking/AFNetworking.h>
 #import <Tweaks/FBTweak.h>
 #import <Tweaks/FBTweakCollection.h>
 #import <Tweaks/FBTweakStore.h>
 #import <Tweaks/FBTweakCategory.h>
+
+
+// LGSideMenuController
+#import "LGSideMenuController.h"
+#import "UIViewController+LGSideMenuController.h"
+
+

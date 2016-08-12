@@ -12,11 +12,23 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let navigationController = storyboard.instantiateViewControllerWithIdentifier("NavigationController") as! UINavigationController
+        let mainViewController = storyboard.instantiateInitialViewController() as! MainViewController
+        mainViewController.rootViewController = navigationController
+        
+        mainViewController.setup(presentationStyle: .SlideBelow, type: 0)
+        self.window!.rootViewController = mainViewController
+        
         return true
+    }
+    
+    func application(application: UIApplication, didChangeStatusBarOrientation oldStatusBarOrientation: UIInterfaceOrientation) {
+        application.statusBarHidden = UI_USER_INTERFACE_IDIOM() == .Phone && UIInterfaceOrientationIsLandscape(application.statusBarOrientation)
     }
 
     func applicationWillResignActive(application: UIApplication) {

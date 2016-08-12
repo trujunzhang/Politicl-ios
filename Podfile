@@ -6,10 +6,7 @@ target 'Politicl' do
   use_frameworks!
 
   # Pods for Politicl
-
-  # Networking / Parsing
-  pod 'AFNetworking', :git => 'https://github.com/wikimedia/AFNetworking.git', :branch => 'release/3.1.1'
-  pod 'Mantle', '~> 2.0.0'
+  pod 'AlamofireJsonToObjects', '~> 1.6.0'
 
   # Images
   pod 'SDWebImage', :git => 'https://github.com/wikimedia/SDWebImage.git', :commit => 'bb49df83e72f2231a191e9477a85f0effe13430a'
@@ -19,9 +16,6 @@ target 'Politicl' do
   pod 'BlocksKit/Core', '~> 2.2.0'
   pod 'BlocksKit/UIKit', '~> 2.2.0'
   pod 'KVOController'
-  
-  # UI
-  pod 'LGSideMenuController', '~> 1.0.0'
 
   # Dates
   pod 'NSDate-Extensions', :git => 'git@github.com:wikimedia/NSDate-Extensions.git'

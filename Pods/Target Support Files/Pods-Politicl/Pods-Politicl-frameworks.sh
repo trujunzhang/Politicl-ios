@@ -84,11 +84,11 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Alamofire/Alamofire.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/AlamofireJsonToObjects/AlamofireJsonToObjects.framework"
   install_framework "$BUILT_PRODUCTS_DIR/BlocksKit/BlocksKit.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/EVReflection/EVReflection.framework"
   install_framework "$BUILT_PRODUCTS_DIR/KVOController/KVOController.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/LGSideMenuController/LGSideMenuController.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Mantle/Mantle.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Masonry/Masonry.framework"
   install_framework "$BUILT_PRODUCTS_DIR/NSDate-Extensions/NSDate_Extensions.framework"
   install_framework "$BUILT_PRODUCTS_DIR/PiwikTracker/PiwikTracker.framework"
@@ -98,11 +98,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/libextobjc/libextobjc.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Alamofire/Alamofire.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/AlamofireJsonToObjects/AlamofireJsonToObjects.framework"
   install_framework "$BUILT_PRODUCTS_DIR/BlocksKit/BlocksKit.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/EVReflection/EVReflection.framework"
   install_framework "$BUILT_PRODUCTS_DIR/KVOController/KVOController.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/LGSideMenuController/LGSideMenuController.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Mantle/Mantle.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Masonry/Masonry.framework"
   install_framework "$BUILT_PRODUCTS_DIR/NSDate-Extensions/NSDate_Extensions.framework"
   install_framework "$BUILT_PRODUCTS_DIR/PiwikTracker/PiwikTracker.framework"
