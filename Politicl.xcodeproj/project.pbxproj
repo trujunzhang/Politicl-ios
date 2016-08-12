@@ -33,6 +33,9 @@
 		5E9598B91D5D7FE600858B64 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9598B81D5D7FE600858B64 /* LeftViewController.swift */; };
 		5ED31A321D5DE42C00DA3332 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED31A301D5DE42C00DA3332 /* MainViewController.swift */; };
 		5ED31A331D5DE42C00DA3332 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED31A311D5DE42C00DA3332 /* NavigationController.swift */; };
+		5ED3AB361D5DE8DB00722ECB /* AggregatedFeedContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3AB351D5DE8DB00722ECB /* AggregatedFeedContent.swift */; };
+		5ED3AB381D5DE8E800722ECB /* PostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3AB371D5DE8E800722ECB /* PostCard.swift */; };
+		5ED3AB3A1D5DE8F400722ECB /* PostCategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3AB391D5DE8F400722ECB /* PostCategoryItem.swift */; };
 		5EDE37A81D5D697900C0D0FD /* QuickExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDE37A71D5D697900C0D0FD /* QuickExampleTests.swift */; };
 		5EF43FA91D5C7AC500214FEA /* NSArray+BKIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF43F4A1D5C7AC500214FEA /* NSArray+BKIndex.m */; };
 		5EF43FAA1D5C7AC500214FEA /* NSArray+WMFExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF43F4B1D5C7AC500214FEA /* NSArray+WMFExtensions.swift */; };
@@ -149,6 +152,9 @@
 		5E9598B81D5D7FE600858B64 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		5ED31A301D5DE42C00DA3332 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5ED31A311D5DE42C00DA3332 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		5ED3AB351D5DE8DB00722ECB /* AggregatedFeedContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AggregatedFeedContent.swift; sourceTree = "<group>"; };
+		5ED3AB371D5DE8E800722ECB /* PostCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCard.swift; sourceTree = "<group>"; };
+		5ED3AB391D5DE8F400722ECB /* PostCategoryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCategoryItem.swift; sourceTree = "<group>"; };
 		5EDE37A71D5D697900C0D0FD /* QuickExampleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickExampleTests.swift; sourceTree = "<group>"; };
 		5EE655821D5C3EDF00D8034A /* Politicl-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Politicl-Bridging-Header.h"; sourceTree = "<group>"; };
 		5EF43F491D5C7AC500214FEA /* NSArray+BKIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BKIndex.h"; sourceTree = "<group>"; };
@@ -319,6 +325,7 @@
 		5E253E7C1D5C3DB000F8FEAA /* Politicl */ = {
 			isa = PBXGroup;
 			children = (
+				5ED3AB341D5DE88C00722ECB /* Models */,
 				5E2677FC1D5DE5080081C4F4 /* LGSideMenuController */,
 				5E9598BB1D5D7FFE00858B64 /* Supporting Files */,
 				5E9598BA1D5D7FEB00858B64 /* UI */,
@@ -397,6 +404,16 @@
 				5EE655821D5C3EDF00D8034A /* Politicl-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5ED3AB341D5DE88C00722ECB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5ED3AB351D5DE8DB00722ECB /* AggregatedFeedContent.swift */,
+				5ED3AB371D5DE8E800722ECB /* PostCard.swift */,
+				5ED3AB391D5DE8F400722ECB /* PostCategoryItem.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		5EF43F451D5C7AC500214FEA /* Code */ = {
@@ -958,6 +975,7 @@
 				5EF43FB11D5C7AC500214FEA /* NSMutableSet+WMFSafeAdd.m in Sources */,
 				5EF43FC81D5C7AC500214FEA /* UITableViewController+WMFScrollToTop.swift in Sources */,
 				5EF43FE41D5C7DB300214FEA /* DDLog+WMFLogger.m in Sources */,
+				5ED3AB381D5DE8E800722ECB /* PostCard.swift in Sources */,
 				5EF43FC61D5C7AC500214FEA /* UIView+WMFSnapshotting.m in Sources */,
 				5EF43FC21D5C7AC500214FEA /* UIView+RemoveConstraints.m in Sources */,
 				5E2678011D5DE5080081C4F4 /* LGSideMenuController.m in Sources */,
@@ -968,6 +986,7 @@
 				5EF43FDA1D5C7CE100214FEA /* WMFLocalization.m in Sources */,
 				5EF43FD11D5C7AC500214FEA /* WMFGeometry.c in Sources */,
 				5EF43FB81D5C7AC500214FEA /* NSDate+WMFDateRanges.m in Sources */,
+				5ED3AB361D5DE8DB00722ECB /* AggregatedFeedContent.swift in Sources */,
 				5EF43FC51D5C7AC500214FEA /* UIView+WMFSearchSubviews.m in Sources */,
 				5EF43FD91D5C7CE100214FEA /* NSLocale+WMFExtras.swift in Sources */,
 				5EF43FB71D5C7AC500214FEA /* NSCalendar+WMFCommonCalendars.m in Sources */,
@@ -988,6 +1007,7 @@
 				5EF43FCA1D5C7AC500214FEA /* UIViewController+WMFChildViewController.m in Sources */,
 				5EF43FA91D5C7AC500214FEA /* NSArray+BKIndex.m in Sources */,
 				5EF43FE51D5C7DB300214FEA /* LoggingDefaults.swift in Sources */,
+				5ED3AB3A1D5DE8F400722ECB /* PostCategoryItem.swift in Sources */,
 				5EF43FBE1D5C7AC500214FEA /* UIScrollView+WMFContentOffsetUtils.m in Sources */,
 				5EF43FCD1D5C7AC500214FEA /* UIViewController+WMFStoryboardUtilities.m in Sources */,
 				5EF43FB01D5C7AC500214FEA /* NSMutableDictionary+WMFMaybeSet.m in Sources */,
