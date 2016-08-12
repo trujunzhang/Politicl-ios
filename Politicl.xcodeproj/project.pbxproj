@@ -28,6 +28,7 @@
 		5E82CFB91D5D644C00B4CD7E /* Quick.framework in Embed Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 5E79866C1D5CBA20008087C9 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5E82CFBA1D5D645500B4CD7E /* FBSnapshotTestCase.framework in Embed Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 5E79866A1D5CBA20008087C9 /* FBSnapshotTestCase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5E82CFBD1D5D64EE00B4CD7E /* CodeFileLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E82CFBC1D5D64EE00B4CD7E /* CodeFileLocationTests.m */; };
+		5EDE37A81D5D697900C0D0FD /* QuickExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDE37A71D5D697900C0D0FD /* QuickExampleTests.swift */; };
 		5EF43FA91D5C7AC500214FEA /* NSArray+BKIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF43F4A1D5C7AC500214FEA /* NSArray+BKIndex.m */; };
 		5EF43FAA1D5C7AC500214FEA /* NSArray+WMFExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF43F4B1D5C7AC500214FEA /* NSArray+WMFExtensions.swift */; };
 		5EF43FAB1D5C7AC500214FEA /* NSArray+WMFMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF43F4D1D5C7AC500214FEA /* NSArray+WMFMapping.m */; };
@@ -135,6 +136,7 @@
 		5E79866C1D5CBA20008087C9 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		5E82CFBC1D5D64EE00B4CD7E /* CodeFileLocationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeFileLocationTests.m; sourceTree = "<group>"; };
 		5E82CFC11D5D665B00B4CD7E /* PoliticlTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PoliticlTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		5EDE37A71D5D697900C0D0FD /* QuickExampleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickExampleTests.swift; sourceTree = "<group>"; };
 		5EE655821D5C3EDF00D8034A /* Politicl-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Politicl-Bridging-Header.h"; sourceTree = "<group>"; };
 		5EF43F491D5C7AC500214FEA /* NSArray+BKIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BKIndex.h"; sourceTree = "<group>"; };
 		5EF43F4A1D5C7AC500214FEA /* NSArray+BKIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BKIndex.m"; sourceTree = "<group>"; };
@@ -331,6 +333,7 @@
 			isa = PBXGroup;
 			children = (
 				5E82CFBC1D5D64EE00B4CD7E /* CodeFileLocationTests.m */,
+				5EDE37A71D5D697900C0D0FD /* QuickExampleTests.swift */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -954,6 +957,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EDE37A81D5D697900C0D0FD /* QuickExampleTests.swift in Sources */,
 				5E253E931D5C3DB000F8FEAA /* PoliticlTests.swift in Sources */,
 				5E82CFBD1D5D64EE00B4CD7E /* CodeFileLocationTests.m in Sources */,
 			);
