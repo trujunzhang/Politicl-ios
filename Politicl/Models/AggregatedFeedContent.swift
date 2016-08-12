@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import AlamofireJsonToObjects
+import EVReflection
+
+class AggregatedFeedContent : EVObject{
+    var status: String?
+    var count: Int = 0
+    var count_total: Int = 0
+    var pages: Int = 0
+    var posts: [PostCard] = [PostCard]()
+    var category: PostCategoryItem?
+}

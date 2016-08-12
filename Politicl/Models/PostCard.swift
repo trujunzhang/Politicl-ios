@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import AlamofireJsonToObjects
+import EVReflection
+
+class PostCard : EVObject{
+
+}

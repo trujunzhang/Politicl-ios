@@ -33,6 +33,9 @@ target 'Politicl' do
 
   target 'PoliticlTests' do
     inherit! :search_paths
+    # Pods for Politicl
+    pod 'AlamofireJsonToObjects', '~> 1.6.0'
+
     # Pods for testing
     pod 'OCMockito', '~> 1.4.0'
     pod 'OCHamcrest', '~> 4.2.0'

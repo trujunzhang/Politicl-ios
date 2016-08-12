@@ -7,3 +7,10 @@
 //
 
 import Foundation
+import AlamofireJsonToObjects
+import EVReflection
+
+class PostCategoryItem : EVObject {
+    
+    
+}
