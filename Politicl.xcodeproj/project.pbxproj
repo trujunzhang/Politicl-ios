@@ -76,6 +76,7 @@
 		5EF43FE41D5C7DB300214FEA /* DDLog+WMFLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF43FDF1D5C7DB300214FEA /* DDLog+WMFLogger.m */; };
 		5EF43FE51D5C7DB300214FEA /* LoggingDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF43FE01D5C7DB300214FEA /* LoggingDefaults.swift */; };
 		5EF43FE61D5C7DB300214FEA /* WMFLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF43FE21D5C7DB300214FEA /* WMFLogFormatter.m */; };
+		5EFF99771D5D6E2A000ED88A /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1198DE1D5D6AF800B911A3 /* Directory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -972,6 +973,7 @@
 				5EDE37A81D5D697900C0D0FD /* QuickExampleTests.swift in Sources */,
 				5E253E931D5C3DB000F8FEAA /* PoliticlTests.swift in Sources */,
 				5E82CFBD1D5D64EE00B4CD7E /* CodeFileLocationTests.m in Sources */,
+				5EFF99771D5D6E2A000ED88A /* Directory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

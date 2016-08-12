@@ -9,11 +9,11 @@
 import Foundation
 
 class Directory {
-    var sections = {}
+    var sections = [String: String]()
 
 
     init(key:String){
-        self.sections[key] = ["Organized Tests with Quick Examples and Example Groups","Installing Quick"]
+        self.sections[key] = "Organized Tests with Quick Examples and Example Groups Installing Quick"
     }
 
 }
