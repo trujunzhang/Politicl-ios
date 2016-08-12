@@ -30,17 +30,36 @@ class PostCard {
     var comment_status: String?
     var thumbnail: String?
     var thumbnail_size: String?
+
+    var author: AuthorItem?
+    var thumbnail_images: ThumbnailItem?
+//    var tags: [TagItem] = [TagItem]()
+//    var categories: [PostCategoryItem] = [PostCategoryItem]()
+//    var custom_fields: CustomFieldsItem?
     
     init(json:JSON){
         id = json["id"].intValue
         type = json["type"].stringValue
         slug = json["slug"].stringValue
+        url = json["url"].stringValue
+        status = json["status"].stringValue
+        title = json["title"].stringValue
+        title_plain = json["title_plain"].stringValue
+        content = json["content"].stringValue
+        excerpt = json["excerpt"].stringValue
+        date = json["date"].stringValue
+        modified = json["modified"].stringValue
+
+        comment_count = json["modified"].intValue
+        comment_status = json["comment_status"].stringValue
+        thumbnail = json["thumbnail"].stringValue
+        thumbnail_size = json["thumbnail_size"].stringValue
+
+        author = AuthorItem(json["author"].Element)
+        thumbnail_images = ThumbnailItem(json["thumbnail_images"].Element)
+
     }
 
-//    var author: AuthorItem?
-//    var thumbnail_images: ThumbnailItem?
-//    var tags: [TagItem] = [TagItem]()
-//    var categories: [PostCategoryItem] = [PostCategoryItem]()
-//    var custom_fields: CustomFieldsItem?
+
 
 }
