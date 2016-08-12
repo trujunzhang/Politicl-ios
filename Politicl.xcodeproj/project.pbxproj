@@ -94,11 +94,13 @@
 		5EF43FE51D5C7DB300214FEA /* LoggingDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF43FE01D5C7DB300214FEA /* LoggingDefaults.swift */; };
 		5EF43FE61D5C7DB300214FEA /* WMFLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF43FE21D5C7DB300214FEA /* WMFLogFormatter.m */; };
 		5EFF99771D5D6E2A000ED88A /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1198DE1D5D6AF800B911A3 /* Directory.swift */; };
+		65B8C008381CB73C6D591C16 /* TagItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8C29089744E75406F72CA /* TagItem.swift */; };
 		65B8C00BB1389C7D40773548 /* ThumbnailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8C4B7364455544363F778 /* ThumbnailItem.swift */; };
 		65B8C467BE071BA7F9D85BD0 /* ThumbnailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8C4B7364455544363F778 /* ThumbnailItem.swift */; };
 		65B8C5439D498D30356AFED7 /* MediumItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8CA861E43C660EBB1CF1A /* MediumItem.swift */; };
 		65B8C62FAE25B049778B5740 /* CustomFieldsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8CAE64CEF7A9DAF79BF7B /* CustomFieldsItem.swift */; };
 		65B8C6B544EC5A387173DBCB /* MediumItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8CA861E43C660EBB1CF1A /* MediumItem.swift */; };
+		65B8C7D989310B5B06C49990 /* TagItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8C29089744E75406F72CA /* TagItem.swift */; };
 		65B8CB90B552CB43EB18AC35 /* AuthorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8C09876B4CC2C5D91845B /* AuthorItem.swift */; };
 		65B8CD4EE059E0D02FA9ADAF /* CustomFieldsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8CAE64CEF7A9DAF79BF7B /* CustomFieldsItem.swift */; };
 		65B8CE86D7E25446F4FE6CDB /* AuthorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8C09876B4CC2C5D91845B /* AuthorItem.swift */; };
@@ -274,6 +276,7 @@
 		5EF43FE21D5C7DB300214FEA /* WMFLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMFLogFormatter.m; sourceTree = "<group>"; };
 		5EF43FE31D5C7DB300214FEA /* WMFLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMFLogging.h; sourceTree = "<group>"; };
 		65B8C09876B4CC2C5D91845B /* AuthorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorItem.swift; sourceTree = "<group>"; };
+		65B8C29089744E75406F72CA /* TagItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagItem.swift; sourceTree = "<group>"; };
 		65B8C4B7364455544363F778 /* ThumbnailItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailItem.swift; sourceTree = "<group>"; };
 		65B8CA861E43C660EBB1CF1A /* MediumItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumItem.swift; sourceTree = "<group>"; };
 		65B8CAE64CEF7A9DAF79BF7B /* CustomFieldsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFieldsItem.swift; sourceTree = "<group>"; };
@@ -454,6 +457,7 @@
 				65B8C4B7364455544363F778 /* ThumbnailItem.swift */,
 				65B8CA861E43C660EBB1CF1A /* MediumItem.swift */,
 				65B8CAE64CEF7A9DAF79BF7B /* CustomFieldsItem.swift */,
+				65B8C29089744E75406F72CA /* TagItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1079,6 +1083,7 @@
 				65B8C00BB1389C7D40773548 /* ThumbnailItem.swift in Sources */,
 				65B8C5439D498D30356AFED7 /* MediumItem.swift in Sources */,
 				65B8CD4EE059E0D02FA9ADAF /* CustomFieldsItem.swift in Sources */,
+				65B8C008381CB73C6D591C16 /* TagItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1098,6 +1103,7 @@
 				65B8C467BE071BA7F9D85BD0 /* ThumbnailItem.swift in Sources */,
 				65B8C6B544EC5A387173DBCB /* MediumItem.swift in Sources */,
 				65B8C62FAE25B049778B5740 /* CustomFieldsItem.swift in Sources */,
+				65B8C7D989310B5B06C49990 /* TagItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -32,6 +32,10 @@ class PostCard: EVObject {
     var thumbnail: String?
     var thumbnail_size: String?
 
-
+    var author: AuthorItem?
+    var thumbnail_images: ThumbnailItem?
+    var tags: [TagItem]?
+    var categories: [PostCategoryItem]?
+    var custom_fields: CustomFieldsItem?
 
 }
