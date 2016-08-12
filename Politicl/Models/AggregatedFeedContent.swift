@@ -7,14 +7,32 @@
 //
 
 import Foundation
-import AlamofireJsonToObjects
-import EVReflection
+import SwiftyJSON
 
-class AggregatedFeedContent : EVObject{
+class AggregatedFeedContent {
     var status: String?
-    var count: Int = 0
-    var count_total: Int = 0
-    var pages: Int = 0
+    var count = 0
+    var count_total = 0
+    var pages = 0
+    
     var posts: [PostCard] = [PostCard]()
-    var category: PostCategoryItem?
+    //    var category: PostCategoryItem?
+    
+     init(json: JSON) {
+        status = json["status"].stringValue
+        count  = json["count"].intValue
+        count_total    = json["count_total"].intValue
+        pages          = json["pages"].intValue
+        
+        if let posts_dict = json["posts"].array{
+            for p in posts_dict{
+                posts.append(PostCard(json: p))
+            }
+        }
+
+        
+        let x = 0
+
+    }
 }
+

@@ -11,6 +11,10 @@
 		1630ACC67FB876FD2C7D87A2 /* Pods_PoliticlUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D483EADF494E179C1C2CA02 /* Pods_PoliticlUITests.framework */; };
 		587F34B01EE609FD08E5B973 /* Pods_PoliticlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1641BADA357CB695D2FDB89A /* Pods_PoliticlTests.framework */; };
 		5E1198DF1D5D6AF800B911A3 /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1198DE1D5D6AF800B911A3 /* Directory.swift */; };
+		5E18A8361D5E253500E1A769 /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E18A8351D5E253500E1A769 /* JSONDecodable.swift */; };
+		5E18A8381D5E282500E1A769 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E18A8371D5E282500E1A769 /* SwiftyJSON.framework */; };
+		5E18A8391D5E289F00E1A769 /* SwiftyJSON.framework in Embed Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 5E18A8371D5E282500E1A769 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5E18A83A1D5E28B200E1A769 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E18A8371D5E282500E1A769 /* SwiftyJSON.framework */; };
 		5E253E7E1D5C3DB000F8FEAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E253E7D1D5C3DB000F8FEAA /* AppDelegate.swift */; };
 		5E253E831D5C3DB000F8FEAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E253E811D5C3DB000F8FEAA /* Main.storyboard */; };
 		5E253E851D5C3DB000F8FEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E253E841D5C3DB000F8FEAA /* Assets.xcassets */; };
@@ -130,6 +134,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				5E18A8391D5E289F00E1A769 /* SwiftyJSON.framework in Embed Carthage Frameworks */,
 				5E82CFBA1D5D645500B4CD7E /* FBSnapshotTestCase.framework in Embed Carthage Frameworks */,
 				5E82CFB91D5D644C00B4CD7E /* Quick.framework in Embed Carthage Frameworks */,
 				5E82CFB81D5D643E00B4CD7E /* Nimble.framework in Embed Carthage Frameworks */,
@@ -146,6 +151,8 @@
 		4AB71B83EBC64178DFDA6AA8 /* Pods-Politicl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Politicl.release.xcconfig"; path = "Pods/Target Support Files/Pods-Politicl/Pods-Politicl.release.xcconfig"; sourceTree = "<group>"; };
 		547F29F6892D3DA1BDA90AC4 /* Pods_Politicl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Politicl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1198DE1D5D6AF800B911A3 /* Directory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Directory.swift; sourceTree = "<group>"; };
+		5E18A8351D5E253500E1A769 /* JSONDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodable.swift; sourceTree = "<group>"; };
+		5E18A8371D5E282500E1A769 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		5E253E7A1D5C3DB000F8FEAA /* Politicl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Politicl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E253E7D1D5C3DB000F8FEAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E253E821D5C3DB000F8FEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -291,6 +298,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E18A8381D5E282500E1A769 /* SwiftyJSON.framework in Frameworks */,
 				5E79866D1D5CBA20008087C9 /* CocoaLumberjack.framework in Frameworks */,
 				5E79866E1D5CBA20008087C9 /* CocoaLumberjackSwift.framework in Frameworks */,
 				12C6B3DB888D2B6F55A2C98D /* Pods_Politicl.framework in Frameworks */,
@@ -301,6 +309,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E18A83A1D5E28B200E1A769 /* SwiftyJSON.framework in Frameworks */,
 				587F34B01EE609FD08E5B973 /* Pods_PoliticlTests.framework in Frameworks */,
 				5E82CFB21D5D640000B4CD7E /* CocoaLumberjack.framework in Frameworks */,
 				5E82CFB31D5D640000B4CD7E /* CocoaLumberjackSwift.framework in Frameworks */,
@@ -458,6 +467,7 @@
 				65B8CA861E43C660EBB1CF1A /* MediumItem.swift */,
 				65B8CAE64CEF7A9DAF79BF7B /* CustomFieldsItem.swift */,
 				65B8C29089744E75406F72CA /* TagItem.swift */,
+				5E18A8351D5E253500E1A769 /* JSONDecodable.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -707,6 +717,7 @@
 		F3CAA7E9B6334100EEBFEA27 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5E18A8371D5E282500E1A769 /* SwiftyJSON.framework */,
 				5E7986681D5CBA20008087C9 /* CocoaLumberjack.framework */,
 				5E7986691D5CBA20008087C9 /* CocoaLumberjackSwift.framework */,
 				5E79866A1D5CBA20008087C9 /* FBSnapshotTestCase.framework */,
@@ -886,6 +897,7 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/CocoaLumberjack.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/CocoaLumberjackSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 			);
 			name = "Copy Carthage Frameworks";
 			outputPaths = (
@@ -903,6 +915,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/FBSnapshotTestCase.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 			);
 			name = "Copy Carthage Frameworks";
 			outputPaths = (
@@ -1024,6 +1037,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EF43FB91D5C7AC500214FEA /* NSDate+WMFRelativeDate.m in Sources */,
+				5E18A8361D5E253500E1A769 /* JSONDecodable.swift in Sources */,
 				5EF43FB11D5C7AC500214FEA /* NSMutableSet+WMFSafeAdd.m in Sources */,
 				5EF43FC81D5C7AC500214FEA /* UITableViewController+WMFScrollToTop.swift in Sources */,
 				5EF43FE41D5C7DB300214FEA /* DDLog+WMFLogger.m in Sources */,

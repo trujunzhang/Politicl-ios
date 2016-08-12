@@ -1,4 +1,6 @@
+github "Alamofire/Alamofire" "3.4.1"
 github "CocoaLumberjack/CocoaLumberjack" "2.3.0"
 github "Quick/Nimble" "v4.1.0"
 github "Quick/Quick" "v0.9.3"
+github "SwiftyJSON/SwiftyJSON" "2.3.3"
 github "facebook/ios-snapshot-test-case" "2.1.2"

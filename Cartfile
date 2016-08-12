@@ -1,5 +1,7 @@
 # Release Libraries
 github "CocoaLumberjack/CocoaLumberjack"
+github "SwiftyJSON/SwiftyJSON" ~> 2.3.1
+github "Alamofire/Alamofire" ~> 3.4
 
 #Test Libraries
 github "facebook/ios-snapshot-test-case"

@@ -7,13 +7,12 @@
 //
 
 import Foundation
-import AlamofireJsonToObjects
-import EVReflection
+import SwiftyJSON
 
-class PostCard: EVObject {
+
+class PostCard {
 
     var id: Int = 0
-    var status: String?
 
     var type: String?
     var slug: String?
@@ -31,11 +30,17 @@ class PostCard: EVObject {
     var comment_status: String?
     var thumbnail: String?
     var thumbnail_size: String?
+    
+    init(json:JSON){
+        id = json["id"].intValue
+        type = json["type"].stringValue
+        slug = json["slug"].stringValue
+    }
 
-    var author: AuthorItem?
-    var thumbnail_images: ThumbnailItem?
-    var tags: [TagItem]?
-    var categories: [PostCategoryItem]?
-    var custom_fields: CustomFieldsItem?
+//    var author: AuthorItem?
+//    var thumbnail_images: ThumbnailItem?
+//    var tags: [TagItem] = [TagItem]()
+//    var categories: [PostCategoryItem] = [PostCategoryItem]()
+//    var custom_fields: CustomFieldsItem?
 
 }

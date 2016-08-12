@@ -6,10 +6,10 @@
 //  Copyright © 2016 djzhang. All rights reserved.
 //
 
-import Foundation
-import AlamofireJsonToObjects
-import EVReflection
-
-class TagItem: EVObject {
-
-}
+//import Foundation
+//import AlamofireJsonToObjects
+//import EVReflection
+//
+//class TagItem: EVObject {
+//
+//}

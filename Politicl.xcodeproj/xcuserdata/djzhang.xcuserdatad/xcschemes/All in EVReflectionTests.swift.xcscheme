@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES"
+            buildForTesting = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5E253E8D1D5C3DB000F8FEAA"
+               BuildableName = "PoliticlTests.xctest"
+               BlueprintName = "PoliticlTests"
+               ReferencedContainer = "container:Politicl.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference>
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5E253E8D1D5C3DB000F8FEAA"
+               BuildableName = "PoliticlTests.xctest"
+               BlueprintName = "PoliticlTests"
+               ReferencedContainer = "container:Politicl.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "CodeFileLocationTests">
+               </Test>
+               <Test
+                  Identifier = "PoliticlTests">
+               </Test>
+               <Test
+                  Identifier = "TableOfContentsSpec">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO">
+   </LaunchAction>
+</Scheme>

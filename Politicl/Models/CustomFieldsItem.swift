@@ -6,13 +6,13 @@
 //  Copyright © 2016 djzhang. All rights reserved.
 //
 
-import Foundation
-import AlamofireJsonToObjects
-import EVReflection
-
-class CustomFieldsItem: EVObject {
-
-    var custom_source_url: [String]?
-    var post_views_count: [Int]?
-
-}
+//import Foundation
+//import AlamofireJsonToObjects
+//import EVReflection
+//
+//class CustomFieldsItem: EVObject {
+//
+//    var custom_source_url: [String] = [String]()
+//    var post_views_count: [String] = [String]()
+//
+//}

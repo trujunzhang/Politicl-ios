@@ -4,145 +4,124 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Alamofire.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false />
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>AlamofireJsonToObjects.xcscheme</key>
+		<key>BlocksKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>BlocksKit.xcscheme</key>
+		<key>HockeySDK-HockeySDKResources.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>EVReflection.xcscheme</key>
+		<key>KVOController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>HockeySDK-HockeySDKResources.xcscheme</key>
+		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
-		<key>KVOController.xcscheme</key>
+		<key>NSDate-Extensions.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
-		<key>Masonry.xcscheme</key>
+		<key>Nocilla.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
-		<key>NSDate-Extensions.xcscheme</key>
+		<key>OCHamcrest.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
-		<key>Nocilla.xcscheme</key>
+		<key>OCMockito.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
-		<key>OCHamcrest.xcscheme</key>
+		<key>PiwikTracker.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
-		<key>OCMockito.xcscheme</key>
+		<key>Pods-Politicl.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
-		<key>PiwikTracker.xcscheme</key>
+		<key>Pods-PoliticlTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
-		<key>Pods-Politicl.xcscheme</key>
+		<key>Pods-PoliticlUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
-		<key>Pods-PoliticlTests.xcscheme</key>
+		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
-		<key>Pods-PoliticlUITests.xcscheme</key>
+		<key>TUSafariActivity-TUSafariActivity.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
-		<key>SDWebImage.xcscheme</key>
+		<key>TUSafariActivity.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
-		<key>TUSafariActivity-TUSafariActivity.xcscheme</key>
+		<key>Tweaks.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
-		<key>TUSafariActivity.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false />
-			<key>orderHint</key>
-			<integer>18</integer>
-		</dict>
-		<key>Tweaks.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false />
-			<key>orderHint</key>
-			<integer>19</integer>
-		</dict>
 		<key>libextobjc.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>18</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -157,17 +136,7 @@
 			<key>primary</key>
 			<true />
 		</dict>
-		<key>1D421A1B96D9613B21F491BA9EEF117D</key>
-		<dict>
-			<key>primary</key>
-			<true />
-		</dict>
-		<key>215A2F901E1E213F87EDB24F1381087F</key>
-		<dict>
-			<key>primary</key>
-			<true />
-		</dict>
-		<key>25823D362813695B411CEB39F7D4CD56</key>
+		<key>2D17F98C82713F66A9D089A5FC5B417E</key>
 		<dict>
 			<key>primary</key>
 			<true />
@@ -182,12 +151,7 @@
 			<key>primary</key>
 			<true />
 		</dict>
-		<key>7525D9F1C942D23B2EA19FD13882D374</key>
-		<dict>
-			<key>primary</key>
-			<true />
-		</dict>
-		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<key>5A717D6B9C91B8589CD9EEDE893DB70E</key>
 		<dict>
 			<key>primary</key>
 			<true />
@@ -197,12 +161,17 @@
 			<key>primary</key>
 			<true />
 		</dict>
-		<key>8CCF059B3D5B90F2857762DCB6AC00DE</key>
+		<key>9777D3DF96C9DDD65A8E6A189756C687</key>
 		<dict>
 			<key>primary</key>
 			<true />
 		</dict>
-		<key>971C00E79D06F65F30CECC234046816C</key>
+		<key>9864DD5D7BA9BED51894C85480246BA3</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>A18B49E070ECD671DDCF2BFDF7882D27</key>
 		<dict>
 			<key>primary</key>
 			<true />
@@ -222,22 +191,17 @@
 			<key>primary</key>
 			<true />
 		</dict>
+		<key>D560D133943364E6A669148B00177CE7</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
 		<key>D8B4D578E9205218B9720B09808F2A5E</key>
 		<dict>
 			<key>primary</key>
 			<true />
 		</dict>
-		<key>D9C8D6B2B8CDC9F5DF08E56357632D5E</key>
-		<dict>
-			<key>primary</key>
-			<true />
-		</dict>
 		<key>EA7BAE64D7FD04E11533ADEDCA836C3A</key>
-		<dict>
-			<key>primary</key>
-			<true />
-		</dict>
-		<key>F294E110725BE29925231A04D56A2833</key>
 		<dict>
 			<key>primary</key>
 			<true />

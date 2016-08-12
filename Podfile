@@ -5,9 +5,6 @@ target 'Politicl' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Politicl
-  pod 'AlamofireJsonToObjects', '~> 1.6.0'
-
   # Images
   pod 'SDWebImage', :git => 'https://github.com/wikimedia/SDWebImage.git', :commit => 'bb49df83e72f2231a191e9477a85f0effe13430a'
 
@@ -22,7 +19,7 @@ target 'Politicl' do
 
   # Autolayout
   pod 'Masonry', '0.6.2'
-  
+
   # Diagnostics
   pod 'PiwikTracker'
   pod 'HockeySDK', '~> 3.8.2'
@@ -33,9 +30,7 @@ target 'Politicl' do
 
   target 'PoliticlTests' do
     inherit! :search_paths
-    # Pods for Politicl
-    pod 'AlamofireJsonToObjects', '~> 1.6.0'
-
+    
     # Pods for testing
     pod 'OCMockito', '~> 1.4.0'
     pod 'OCHamcrest', '~> 4.2.0'

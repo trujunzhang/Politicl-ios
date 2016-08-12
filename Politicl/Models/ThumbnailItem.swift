@@ -6,15 +6,15 @@
 //  Copyright © 2016 djzhang. All rights reserved.
 //
 
-import Foundation
-import AlamofireJsonToObjects
-import EVReflection
-
-class ThumbnailItem: EVObject {
-
-    var full: MediumItem?
-    var thumbnail: MediumItem?
-    var medium: MediumItem?
-
-
-}
+//import Foundation
+//import AlamofireJsonToObjects
+//import EVReflection
+//
+//class ThumbnailItem: EVObject {
+//
+//    var full: MediumItem?
+//    var thumbnail: MediumItem?
+//    var medium: MediumItem?
+//
+//
+//}
