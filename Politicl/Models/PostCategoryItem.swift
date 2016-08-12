@@ -6,20 +6,29 @@
 //  Copyright © 2016 djzhang. All rights reserved.
 //
 
-//import Foundation
-//import AlamofireJsonToObjects
-//import EVReflection
-//
-//class PostCategoryItem: EVObject {
-//
-//    var id = 0
-//    var slug: String?
-//    var title: String?
-//    override var description : String {
-//        return ""
-//    }
-//    var parent: String?
-//    var post_count = 0
-//
-//
-//}
+import Foundation
+import SwiftyJSON
+
+class PostCategoryItem {
+
+    var id = 0
+    var slug: String?
+    var title: String?
+    var descrip : String = ""
+
+    var parent: String?
+    var post_count = 0
+
+
+    init(json: JSON){
+        id = json["id"].stringValue
+        slug = json["slug"].stringValue
+        title = json["title"].stringValue
+        descrip = json["description"].stringValue
+
+        parent = json["parent"].stringValue
+        post_count = json["post_count"].stringValue
+    }
+
+
+}
