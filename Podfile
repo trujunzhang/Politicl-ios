@@ -19,6 +19,9 @@ target 'Politicl' do
   pod 'BlocksKit/Core', '~> 2.2.0'
   pod 'BlocksKit/UIKit', '~> 2.2.0'
   pod 'KVOController'
+  
+  # UI
+  pod 'LGSideMenuController', '~> 1.0.0'
 
   # Dates
   pod 'NSDate-Extensions', :git => 'git@github.com:wikimedia/NSDate-Extensions.git'

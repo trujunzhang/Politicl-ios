@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '8C19F7F42933C0B151E75F30A5A4D35C'
-               BlueprintName = 'TUSafariActivity-TUSafariActivity'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'TUSafariActivity.bundle'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E69B92A33BF0DA69766632232536DFFD"
+               BlueprintName = "LGSideMenuController"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "LGSideMenuController.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

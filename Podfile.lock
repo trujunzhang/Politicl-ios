@@ -23,6 +23,7 @@ PODS:
     - HockeySDK/AllFeaturesLib (= 3.8.6)
   - HockeySDK/AllFeaturesLib (3.8.6)
   - KVOController (1.1.0)
+  - LGSideMenuController (1.0.10)
   - libextobjc/EXTScope (0.4.1):
     - libextobjc/RuntimeExtensions
   - libextobjc/RuntimeExtensions (0.4.1)
@@ -50,6 +51,7 @@ DEPENDENCIES:
   - BlocksKit/UIKit (~> 2.2.0)
   - HockeySDK (~> 3.8.2)
   - KVOController
+  - LGSideMenuController (~> 1.0.0)
   - libextobjc/EXTScope (~> 0.4.1)
   - Mantle (~> 2.0.0)
   - Masonry (= 0.6.2)
@@ -88,6 +90,7 @@ SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   HockeySDK: a56e6eaf8a2b992ad22f755cd989c0c62d7b372b
   KVOController: 321b5fc59300fcaabd42c0f679baa7a27efbb2fd
+  LGSideMenuController: 8682bdbd0008c1acfbce95eaf96cc3657bca5f95
   libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
   Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
   Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
@@ -100,6 +103,6 @@ SPEC CHECKSUMS:
   TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
   Tweaks: 524fa47636cce3bf3a4d9156e980f10ae9480e81
 
-PODFILE CHECKSUM: 4a0b508def137b3ebf930a1998e43c101b0b4b52
+PODFILE CHECKSUM: bc702d1a0dbf453b2371358fb65cc46560a88ad3
 
 COCOAPODS: 1.0.1
