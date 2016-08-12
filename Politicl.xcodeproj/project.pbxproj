@@ -94,6 +94,8 @@
 		5EF43FE51D5C7DB300214FEA /* LoggingDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF43FE01D5C7DB300214FEA /* LoggingDefaults.swift */; };
 		5EF43FE61D5C7DB300214FEA /* WMFLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF43FE21D5C7DB300214FEA /* WMFLogFormatter.m */; };
 		5EFF99771D5D6E2A000ED88A /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1198DE1D5D6AF800B911A3 /* Directory.swift */; };
+		65B8CB90B552CB43EB18AC35 /* AuthorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8C09876B4CC2C5D91845B /* AuthorItem.swift */; };
+		65B8CE86D7E25446F4FE6CDB /* AuthorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8C09876B4CC2C5D91845B /* AuthorItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -265,6 +267,7 @@
 		5EF43FE11D5C7DB300214FEA /* WMFLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMFLogFormatter.h; sourceTree = "<group>"; };
 		5EF43FE21D5C7DB300214FEA /* WMFLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMFLogFormatter.m; sourceTree = "<group>"; };
 		5EF43FE31D5C7DB300214FEA /* WMFLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMFLogging.h; sourceTree = "<group>"; };
+		65B8C09876B4CC2C5D91845B /* AuthorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorItem.swift; sourceTree = "<group>"; };
 		7ACFF527F467003A800CE16E /* Pods-PoliticlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliticlTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PoliticlTests/Pods-PoliticlTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D483EADF494E179C1C2CA02 /* Pods_PoliticlUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoliticlUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9051CAF7803791F23392927D /* Pods-PoliticlUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliticlUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoliticlUITests/Pods-PoliticlUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -438,6 +441,7 @@
 				5ED3AB351D5DE8DB00722ECB /* AggregatedFeedContent.swift */,
 				5ED3AB371D5DE8E800722ECB /* PostCard.swift */,
 				5ED3AB391D5DE8F400722ECB /* PostCategoryItem.swift */,
+				65B8C09876B4CC2C5D91845B /* AuthorItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1059,6 +1063,7 @@
 				5EF43FAA1D5C7AC500214FEA /* NSArray+WMFExtensions.swift in Sources */,
 				5EF43FD31D5C7AC500214FEA /* WMFTaskGroup.m in Sources */,
 				5EF43FCE1D5C7AC500214FEA /* NSBundle+WMFInfoUtils.m in Sources */,
+				65B8CE86D7E25446F4FE6CDB /* AuthorItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1074,6 +1079,7 @@
 				5EFF99771D5D6E2A000ED88A /* Directory.swift in Sources */,
 				5EAE9E141D5DF4C60087FAFA /* EVReflectionTests.swift in Sources */,
 				5E6FB3151D5E06AD00A3F7EC /* PostCard.swift in Sources */,
+				65B8CB90B552CB43EB18AC35 /* AuthorItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
