@@ -29,6 +29,7 @@
 		5E82CFB91D5D644C00B4CD7E /* Quick.framework in Embed Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 5E79866C1D5CBA20008087C9 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5E82CFBA1D5D645500B4CD7E /* FBSnapshotTestCase.framework in Embed Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 5E79866A1D5CBA20008087C9 /* FBSnapshotTestCase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5E82CFBD1D5D64EE00B4CD7E /* CodeFileLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E82CFBC1D5D64EE00B4CD7E /* CodeFileLocationTests.m */; };
+		5E9598B91D5D7FE600858B64 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9598B81D5D7FE600858B64 /* LeftViewController.swift */; };
 		5EDE37A81D5D697900C0D0FD /* QuickExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDE37A71D5D697900C0D0FD /* QuickExampleTests.swift */; };
 		5EF43FA91D5C7AC500214FEA /* NSArray+BKIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF43F4A1D5C7AC500214FEA /* NSArray+BKIndex.m */; };
 		5EF43FAA1D5C7AC500214FEA /* NSArray+WMFExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF43F4B1D5C7AC500214FEA /* NSArray+WMFExtensions.swift */; };
@@ -139,6 +140,7 @@
 		5E79866C1D5CBA20008087C9 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		5E82CFBC1D5D64EE00B4CD7E /* CodeFileLocationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeFileLocationTests.m; sourceTree = "<group>"; };
 		5E82CFC11D5D665B00B4CD7E /* PoliticlTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PoliticlTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		5E9598B81D5D7FE600858B64 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		5EDE37A71D5D697900C0D0FD /* QuickExampleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickExampleTests.swift; sourceTree = "<group>"; };
 		5EE655821D5C3EDF00D8034A /* Politicl-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Politicl-Bridging-Header.h"; sourceTree = "<group>"; };
 		5EF43F491D5C7AC500214FEA /* NSArray+BKIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BKIndex.h"; sourceTree = "<group>"; };
@@ -309,15 +311,13 @@
 		5E253E7C1D5C3DB000F8FEAA /* Politicl */ = {
 			isa = PBXGroup;
 			children = (
+				5E9598BB1D5D7FFE00858B64 /* Supporting Files */,
+				5E9598BA1D5D7FEB00858B64 /* UI */,
 				5E1198DD1D5D6AE500B911A3 /* Quick */,
 				5EF43F451D5C7AC500214FEA /* Code */,
 				5E253E7D1D5C3DB000F8FEAA /* AppDelegate.swift */,
-				5E253E7F1D5C3DB000F8FEAA /* ViewController.swift */,
-				5E253E811D5C3DB000F8FEAA /* Main.storyboard */,
 				5E253E841D5C3DB000F8FEAA /* Assets.xcassets */,
 				5E253E861D5C3DB000F8FEAA /* LaunchScreen.storyboard */,
-				5E253E891D5C3DB000F8FEAA /* Info.plist */,
-				5EE655821D5C3EDF00D8034A /* Politicl-Bridging-Header.h */,
 			);
 			path = Politicl;
 			sourceTree = "<group>";
@@ -355,6 +355,25 @@
 			children = (
 				5E82CFC11D5D665B00B4CD7E /* PoliticlTests-Bridging-Header.h */,
 				5E253E941D5C3DB000F8FEAA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E9598BA1D5D7FEB00858B64 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5E253E7F1D5C3DB000F8FEAA /* ViewController.swift */,
+				5E9598B81D5D7FE600858B64 /* LeftViewController.swift */,
+				5E253E811D5C3DB000F8FEAA /* Main.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		5E9598BB1D5D7FFE00858B64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E253E891D5C3DB000F8FEAA /* Info.plist */,
+				5EE655821D5C3EDF00D8034A /* Politicl-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -957,6 +976,7 @@
 				5EF43FE61D5C7DB300214FEA /* WMFLogFormatter.m in Sources */,
 				5EF43FB51D5C7AC500214FEA /* NSCharacterSet+WMFExtras.m in Sources */,
 				5EF43FC71D5C7AC500214FEA /* UIViewController+WMFOpenExternalUrl.m in Sources */,
+				5E9598B91D5D7FE600858B64 /* LeftViewController.swift in Sources */,
 				5EF43FB41D5C7AC500214FEA /* NSAttributedString+WMFTrim.m in Sources */,
 				5EF43FC41D5C7AC500214FEA /* UIView+WMFFrameUtils.m in Sources */,
 				5EF43FC31D5C7AC500214FEA /* UIView+WMFDefaultNib.m in Sources */,
