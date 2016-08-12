@@ -10,14 +10,9 @@ import Foundation
 import AlamofireJsonToObjects
 import EVReflection
 
-class PostCategoryItem: EVObject {
+class CustomFieldsItem: EVObject {
 
-    var id = 0
-    var slug: String?
-    var title: String?
-    var description: String?
-    var parent: String?
-    var post_count = 0
-
+    var custom_source_url: [String]?
+    var post_views_count: [Int]?
 
 }
