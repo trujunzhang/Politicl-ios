@@ -10,6 +10,7 @@
 		12C6B3DB888D2B6F55A2C98D /* Pods_Politicl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547F29F6892D3DA1BDA90AC4 /* Pods_Politicl.framework */; };
 		1630ACC67FB876FD2C7D87A2 /* Pods_PoliticlUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D483EADF494E179C1C2CA02 /* Pods_PoliticlUITests.framework */; };
 		587F34B01EE609FD08E5B973 /* Pods_PoliticlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1641BADA357CB695D2FDB89A /* Pods_PoliticlTests.framework */; };
+		5E1198DF1D5D6AF800B911A3 /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1198DE1D5D6AF800B911A3 /* Directory.swift */; };
 		5E253E7E1D5C3DB000F8FEAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E253E7D1D5C3DB000F8FEAA /* AppDelegate.swift */; };
 		5E253E801D5C3DB000F8FEAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E253E7F1D5C3DB000F8FEAA /* ViewController.swift */; };
 		5E253E831D5C3DB000F8FEAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E253E811D5C3DB000F8FEAA /* Main.storyboard */; };
@@ -116,6 +117,7 @@
 		3F06D9001A2E2963AAD573D1 /* Pods-Politicl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Politicl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Politicl/Pods-Politicl.debug.xcconfig"; sourceTree = "<group>"; };
 		4AB71B83EBC64178DFDA6AA8 /* Pods-Politicl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Politicl.release.xcconfig"; path = "Pods/Target Support Files/Pods-Politicl/Pods-Politicl.release.xcconfig"; sourceTree = "<group>"; };
 		547F29F6892D3DA1BDA90AC4 /* Pods_Politicl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Politicl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1198DE1D5D6AF800B911A3 /* Directory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Directory.swift; sourceTree = "<group>"; };
 		5E253E7A1D5C3DB000F8FEAA /* Politicl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Politicl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E253E7D1D5C3DB000F8FEAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E253E7F1D5C3DB000F8FEAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -273,6 +275,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E1198DD1D5D6AE500B911A3 /* Quick */ = {
+			isa = PBXGroup;
+			children = (
+				5E1198DE1D5D6AF800B911A3 /* Directory.swift */,
+			);
+			path = Quick;
+			sourceTree = "<group>";
+		};
 		5E253E711D5C3DB000F8FEAA = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +308,7 @@
 		5E253E7C1D5C3DB000F8FEAA /* Politicl */ = {
 			isa = PBXGroup;
 			children = (
+				5E1198DD1D5D6AE500B911A3 /* Quick */,
 				5EF43F451D5C7AC500214FEA /* Code */,
 				5E253E7D1D5C3DB000F8FEAA /* AppDelegate.swift */,
 				5E253E7F1D5C3DB000F8FEAA /* ViewController.swift */,
@@ -921,6 +932,7 @@
 				5EF43FB71D5C7AC500214FEA /* NSCalendar+WMFCommonCalendars.m in Sources */,
 				5EF43FAF1D5C7AC500214FEA /* NSMutableArray+WMFSafeAdd.m in Sources */,
 				5EF43FCC1D5C7AC500214FEA /* UIViewController+WMFHideKeyboard.m in Sources */,
+				5E1198DF1D5D6AF800B911A3 /* Directory.swift in Sources */,
 				5EF43FB21D5C7AC500214FEA /* NSProcessInfo+WMFOperatingSystemVersionChecks.m in Sources */,
 				5E253E7E1D5C3DB000F8FEAA /* AppDelegate.swift in Sources */,
 				5EF43FD21D5C7AC500214FEA /* WMFMath.m in Sources */,

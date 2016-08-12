@@ -12,8 +12,8 @@ class TableOfContentsSpec: QuickSpec {
             
             context("if it doesn't have what you're looking for") {
                 it("needs to be updated") {
-                    let you = You(awesome: true)
-                    expect{you.submittedAnIssue}.toEventually(beTruthy())
+//                    let you = You(awesome: true)
+//                    expect{you.submittedAnIssue}.toEventually(beTruthy())
                 }
             }
         }
