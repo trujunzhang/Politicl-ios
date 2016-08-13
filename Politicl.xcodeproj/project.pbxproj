@@ -23,6 +23,9 @@
 		5E253E9E1D5C3DB000F8FEAA /* PoliticlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E253E9D1D5C3DB000F8FEAA /* PoliticlUITests.swift */; };
 		5E2678011D5DE5080081C4F4 /* LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2677FE1D5DE5080081C4F4 /* LGSideMenuController.m */; };
 		5E2678021D5DE5080081C4F4 /* UIViewController+LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2678001D5DE5080081C4F4 /* UIViewController+LGSideMenuController.m */; };
+		5E4360971D5EEB0A00E0023E /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4360941D5EEB0A00E0023E /* LeftViewController.swift */; };
+		5E4360981D5EEB0A00E0023E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4360951D5EEB0A00E0023E /* MainViewController.swift */; };
+		5E4360991D5EEB0A00E0023E /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4360961D5EEB0A00E0023E /* NavigationController.swift */; };
 		5E50E33C1D5E05B200A3CF6A /* get_category_index.json in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE9E111D5DF4C60087FAFA /* get_category_index.json */; };
 		5E50E33D1D5E05B600A3CF6A /* get_recent_posts.json in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE9E131D5DF4C60087FAFA /* get_recent_posts.json */; };
 		5E50E33E1D5E05B900A3CF6A /* get_category_posts_top_stories_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE9E121D5DF4C60087FAFA /* get_category_posts_top_stories_1.json */; };
@@ -45,13 +48,10 @@
 		5E82CFBD1D5D64EE00B4CD7E /* CodeFileLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E82CFBC1D5D64EE00B4CD7E /* CodeFileLocationTests.m */; };
 		5E933CCD1D5E988C0073FD3C /* PWPFeedFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E933CCC1D5E988C0073FD3C /* PWPFeedFetcher.swift */; };
 		5E933CCE1D5E98A20073FD3C /* PWPFeedFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E933CCC1D5E988C0073FD3C /* PWPFeedFetcher.swift */; };
-		5E9598B91D5D7FE600858B64 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9598B81D5D7FE600858B64 /* LeftViewController.swift */; };
 		5EAE9E141D5DF4C60087FAFA /* EVReflectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE9E101D5DF4C60087FAFA /* EVReflectionTests.swift */; };
 		5EAE9E151D5DF4C60087FAFA /* get_category_index.json in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE9E111D5DF4C60087FAFA /* get_category_index.json */; };
 		5EAE9E161D5DF4C60087FAFA /* get_category_posts_top_stories_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE9E121D5DF4C60087FAFA /* get_category_posts_top_stories_1.json */; };
 		5EAE9E171D5DF4C60087FAFA /* get_recent_posts.json in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE9E131D5DF4C60087FAFA /* get_recent_posts.json */; };
-		5ED31A321D5DE42C00DA3332 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED31A301D5DE42C00DA3332 /* MainViewController.swift */; };
-		5ED31A331D5DE42C00DA3332 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED31A311D5DE42C00DA3332 /* NavigationController.swift */; };
 		5ED3AB361D5DE8DB00722ECB /* AggregatedFeedContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3AB351D5DE8DB00722ECB /* AggregatedFeedContent.swift */; };
 		5ED3AB381D5DE8E800722ECB /* PostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3AB371D5DE8E800722ECB /* PostCard.swift */; };
 		5ED3AB3A1D5DE8F400722ECB /* PostCategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3AB391D5DE8F400722ECB /* PostCategoryItem.swift */; };
@@ -175,6 +175,9 @@
 		5E2677FE1D5DE5080081C4F4 /* LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuController.m; sourceTree = "<group>"; };
 		5E2677FF1D5DE5080081C4F4 /* UIViewController+LGSideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LGSideMenuController.h"; sourceTree = "<group>"; };
 		5E2678001D5DE5080081C4F4 /* UIViewController+LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LGSideMenuController.m"; sourceTree = "<group>"; };
+		5E4360941D5EEB0A00E0023E /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeftViewController.swift; path = UI/LeftViewController.swift; sourceTree = "<group>"; };
+		5E4360951D5EEB0A00E0023E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = UI/MainViewController.swift; sourceTree = "<group>"; };
+		5E4360961D5EEB0A00E0023E /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationController.swift; path = UI/NavigationController.swift; sourceTree = "<group>"; };
 		5E59E3AC1D5E958B0076A1FC /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		5E7986681D5CBA20008087C9 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
 		5E7986691D5CBA20008087C9 /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjackSwift.framework; path = Carthage/Build/iOS/CocoaLumberjackSwift.framework; sourceTree = "<group>"; };
@@ -184,13 +187,10 @@
 		5E82CFBC1D5D64EE00B4CD7E /* CodeFileLocationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeFileLocationTests.m; sourceTree = "<group>"; };
 		5E82CFC11D5D665B00B4CD7E /* PoliticlTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PoliticlTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		5E933CCC1D5E988C0073FD3C /* PWPFeedFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWPFeedFetcher.swift; sourceTree = "<group>"; };
-		5E9598B81D5D7FE600858B64 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		5EAE9E101D5DF4C60087FAFA /* EVReflectionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVReflectionTests.swift; sourceTree = "<group>"; };
 		5EAE9E111D5DF4C60087FAFA /* get_category_index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = get_category_index.json; sourceTree = "<group>"; };
 		5EAE9E121D5DF4C60087FAFA /* get_category_posts_top_stories_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = get_category_posts_top_stories_1.json; sourceTree = "<group>"; };
 		5EAE9E131D5DF4C60087FAFA /* get_recent_posts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = get_recent_posts.json; sourceTree = "<group>"; };
-		5ED31A301D5DE42C00DA3332 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		5ED31A311D5DE42C00DA3332 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		5ED3AB351D5DE8DB00722ECB /* AggregatedFeedContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AggregatedFeedContent.swift; sourceTree = "<group>"; };
 		5ED3AB371D5DE8E800722ECB /* PostCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCard.swift; sourceTree = "<group>"; };
 		5ED3AB391D5DE8F400722ECB /* PostCategoryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCategoryItem.swift; sourceTree = "<group>"; };
@@ -447,10 +447,10 @@
 		5E9598BA1D5D7FEB00858B64 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				5ED31A301D5DE42C00DA3332 /* MainViewController.swift */,
-				5ED31A311D5DE42C00DA3332 /* NavigationController.swift */,
+				5E4360941D5EEB0A00E0023E /* LeftViewController.swift */,
+				5E4360951D5EEB0A00E0023E /* MainViewController.swift */,
+				5E4360961D5EEB0A00E0023E /* NavigationController.swift */,
 				5E253E811D5C3DB000F8FEAA /* Main.storyboard */,
-				5E9598B81D5D7FE600858B64 /* LeftViewController.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -1062,6 +1062,7 @@
 				5E18A8361D5E253500E1A769 /* JSONDecodable.swift in Sources */,
 				5EF43FB11D5C7AC500214FEA /* NSMutableSet+WMFSafeAdd.m in Sources */,
 				5EF43FC81D5C7AC500214FEA /* UITableViewController+WMFScrollToTop.swift in Sources */,
+				5E4360971D5EEB0A00E0023E /* LeftViewController.swift in Sources */,
 				5EF43FE41D5C7DB300214FEA /* DDLog+WMFLogger.m in Sources */,
 				5ED3AB381D5DE8E800722ECB /* PostCard.swift in Sources */,
 				5EF43FC61D5C7AC500214FEA /* UIView+WMFSnapshotting.m in Sources */,
@@ -1074,6 +1075,7 @@
 				5EF43FDA1D5C7CE100214FEA /* WMFLocalization.m in Sources */,
 				5EF43FD11D5C7AC500214FEA /* WMFGeometry.c in Sources */,
 				5EF43FB81D5C7AC500214FEA /* NSDate+WMFDateRanges.m in Sources */,
+				5E4360981D5EEB0A00E0023E /* MainViewController.swift in Sources */,
 				5ED3AB361D5DE8DB00722ECB /* AggregatedFeedContent.swift in Sources */,
 				5EF43FC51D5C7AC500214FEA /* UIView+WMFSearchSubviews.m in Sources */,
 				5EF43FD91D5C7CE100214FEA /* NSLocale+WMFExtras.swift in Sources */,
@@ -1085,7 +1087,6 @@
 				5E253E7E1D5C3DB000F8FEAA /* AppDelegate.swift in Sources */,
 				5E2678021D5DE5080081C4F4 /* UIViewController+LGSideMenuController.m in Sources */,
 				5EF43FD21D5C7AC500214FEA /* WMFMath.m in Sources */,
-				5ED31A331D5DE42C00DA3332 /* NavigationController.swift in Sources */,
 				5EF43FAD1D5C7AC500214FEA /* NSDictionary+WMFExtensions.m in Sources */,
 				5EF43FB61D5C7AC500214FEA /* NSString+FormattedAttributedString.m in Sources */,
 				5EF43FC91D5C7AC500214FEA /* UIViewController+SafePreviewing.swift in Sources */,
@@ -1097,6 +1098,7 @@
 				5EF43FE51D5C7DB300214FEA /* LoggingDefaults.swift in Sources */,
 				5ED3AB3A1D5DE8F400722ECB /* PostCategoryItem.swift in Sources */,
 				5EF43FBE1D5C7AC500214FEA /* UIScrollView+WMFContentOffsetUtils.m in Sources */,
+				5E4360991D5EEB0A00E0023E /* NavigationController.swift in Sources */,
 				5EF43FCD1D5C7AC500214FEA /* UIViewController+WMFStoryboardUtilities.m in Sources */,
 				5EF43FB01D5C7AC500214FEA /* NSMutableDictionary+WMFMaybeSet.m in Sources */,
 				5EF43FBB1D5C7AC500214FEA /* UINavigationBar+WMFTransparency.m in Sources */,
@@ -1104,11 +1106,9 @@
 				5EF43FAE1D5C7AC500214FEA /* NSIndexSet+BKReduce.m in Sources */,
 				5EF43FC01D5C7AC500214FEA /* UIView+Debugging.m in Sources */,
 				5EF43FAB1D5C7AC500214FEA /* NSArray+WMFMapping.m in Sources */,
-				5ED31A321D5DE42C00DA3332 /* MainViewController.swift in Sources */,
 				5EF43FE61D5C7DB300214FEA /* WMFLogFormatter.m in Sources */,
 				5EF43FB51D5C7AC500214FEA /* NSCharacterSet+WMFExtras.m in Sources */,
 				5EF43FC71D5C7AC500214FEA /* UIViewController+WMFOpenExternalUrl.m in Sources */,
-				5E9598B91D5D7FE600858B64 /* LeftViewController.swift in Sources */,
 				5EF43FB41D5C7AC500214FEA /* NSAttributedString+WMFTrim.m in Sources */,
 				5EF43FC41D5C7AC500214FEA /* UIView+WMFFrameUtils.m in Sources */,
 				5EF43FC31D5C7AC500214FEA /* UIView+WMFDefaultNib.m in Sources */,
