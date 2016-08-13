@@ -35,6 +35,7 @@ target 'Politicl' do
     pod 'OCMockito', '~> 1.4.0'
     pod 'OCHamcrest', '~> 4.2.0'
     pod 'Nocilla'
+    pod 'Mockingjay'
   end
 
   target 'PoliticlUITests' do

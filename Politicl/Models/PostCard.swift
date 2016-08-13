@@ -32,7 +32,7 @@ class PostCard {
     var thumbnail_size: String?
 
     var author: AuthorItem?
-//    var thumbnail_images: ThumbnailItem?
+    var thumbnail_images: ThumbnailItem?
 //    var tags: [TagItem] = [TagItem]()
 //    var categories: [PostCategoryItem] = [PostCategoryItem]()
 //    var custom_fields: CustomFieldsItem?
@@ -54,12 +54,8 @@ class PostCard {
         comment_status = json["comment_status"].stringValue
         thumbnail = json["thumbnail"].stringValue
         thumbnail_size = json["thumbnail_size"].stringValue
-
-//        author = AuthorItem(json: json["author"].Element)
-//        thumbnail_images = ThumbnailItem(json["thumbnail_images"].Element)
-
+        
+        author = AuthorItem(json: json["author"])
+        thumbnail_images = ThumbnailItem(json:json["thumbnail_images"])
     }
-
-
-
 }

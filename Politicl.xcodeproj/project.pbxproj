@@ -26,6 +26,9 @@
 		5E50E33C1D5E05B200A3CF6A /* get_category_index.json in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE9E111D5DF4C60087FAFA /* get_category_index.json */; };
 		5E50E33D1D5E05B600A3CF6A /* get_recent_posts.json in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE9E131D5DF4C60087FAFA /* get_recent_posts.json */; };
 		5E50E33E1D5E05B900A3CF6A /* get_category_posts_top_stories_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE9E121D5DF4C60087FAFA /* get_category_posts_top_stories_1.json */; };
+		5E59E3AD1D5E958B0076A1FC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E59E3AC1D5E958B0076A1FC /* Alamofire.framework */; };
+		5E59E3AE1D5E96680076A1FC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E59E3AC1D5E958B0076A1FC /* Alamofire.framework */; };
+		5E59E3AF1D5E96960076A1FC /* Alamofire.framework in Embed Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 5E59E3AC1D5E958B0076A1FC /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5E6FB3141D5E06AA00A3F7EC /* AggregatedFeedContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3AB351D5DE8DB00722ECB /* AggregatedFeedContent.swift */; };
 		5E6FB3151D5E06AD00A3F7EC /* PostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3AB371D5DE8E800722ECB /* PostCard.swift */; };
 		5E6FB3161D5E06B000A3F7EC /* PostCategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3AB391D5DE8F400722ECB /* PostCategoryItem.swift */; };
@@ -40,6 +43,8 @@
 		5E82CFB91D5D644C00B4CD7E /* Quick.framework in Embed Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 5E79866C1D5CBA20008087C9 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5E82CFBA1D5D645500B4CD7E /* FBSnapshotTestCase.framework in Embed Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 5E79866A1D5CBA20008087C9 /* FBSnapshotTestCase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5E82CFBD1D5D64EE00B4CD7E /* CodeFileLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E82CFBC1D5D64EE00B4CD7E /* CodeFileLocationTests.m */; };
+		5E933CCD1D5E988C0073FD3C /* PWPFeedFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E933CCC1D5E988C0073FD3C /* PWPFeedFetcher.swift */; };
+		5E933CCE1D5E98A20073FD3C /* PWPFeedFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E933CCC1D5E988C0073FD3C /* PWPFeedFetcher.swift */; };
 		5E9598B91D5D7FE600858B64 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9598B81D5D7FE600858B64 /* LeftViewController.swift */; };
 		5EAE9E141D5DF4C60087FAFA /* EVReflectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE9E101D5DF4C60087FAFA /* EVReflectionTests.swift */; };
 		5EAE9E151D5DF4C60087FAFA /* get_category_index.json in Resources */ = {isa = PBXBuildFile; fileRef = 5EAE9E111D5DF4C60087FAFA /* get_category_index.json */; };
@@ -134,6 +139,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				5E59E3AF1D5E96960076A1FC /* Alamofire.framework in Embed Carthage Frameworks */,
 				5E18A8391D5E289F00E1A769 /* SwiftyJSON.framework in Embed Carthage Frameworks */,
 				5E82CFBA1D5D645500B4CD7E /* FBSnapshotTestCase.framework in Embed Carthage Frameworks */,
 				5E82CFB91D5D644C00B4CD7E /* Quick.framework in Embed Carthage Frameworks */,
@@ -169,6 +175,7 @@
 		5E2677FE1D5DE5080081C4F4 /* LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuController.m; sourceTree = "<group>"; };
 		5E2677FF1D5DE5080081C4F4 /* UIViewController+LGSideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LGSideMenuController.h"; sourceTree = "<group>"; };
 		5E2678001D5DE5080081C4F4 /* UIViewController+LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LGSideMenuController.m"; sourceTree = "<group>"; };
+		5E59E3AC1D5E958B0076A1FC /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		5E7986681D5CBA20008087C9 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
 		5E7986691D5CBA20008087C9 /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjackSwift.framework; path = Carthage/Build/iOS/CocoaLumberjackSwift.framework; sourceTree = "<group>"; };
 		5E79866A1D5CBA20008087C9 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSnapshotTestCase.framework; path = Carthage/Build/iOS/FBSnapshotTestCase.framework; sourceTree = "<group>"; };
@@ -176,6 +183,7 @@
 		5E79866C1D5CBA20008087C9 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		5E82CFBC1D5D64EE00B4CD7E /* CodeFileLocationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeFileLocationTests.m; sourceTree = "<group>"; };
 		5E82CFC11D5D665B00B4CD7E /* PoliticlTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PoliticlTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		5E933CCC1D5E988C0073FD3C /* PWPFeedFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWPFeedFetcher.swift; sourceTree = "<group>"; };
 		5E9598B81D5D7FE600858B64 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		5EAE9E101D5DF4C60087FAFA /* EVReflectionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVReflectionTests.swift; sourceTree = "<group>"; };
 		5EAE9E111D5DF4C60087FAFA /* get_category_index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = get_category_index.json; sourceTree = "<group>"; };
@@ -298,6 +306,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E59E3AD1D5E958B0076A1FC /* Alamofire.framework in Frameworks */,
 				5E18A8381D5E282500E1A769 /* SwiftyJSON.framework in Frameworks */,
 				5E79866D1D5CBA20008087C9 /* CocoaLumberjack.framework in Frameworks */,
 				5E79866E1D5CBA20008087C9 /* CocoaLumberjackSwift.framework in Frameworks */,
@@ -309,6 +318,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E59E3AE1D5E96680076A1FC /* Alamofire.framework in Frameworks */,
 				5E18A83A1D5E28B200E1A769 /* SwiftyJSON.framework in Frameworks */,
 				587F34B01EE609FD08E5B973 /* Pods_PoliticlTests.framework in Frameworks */,
 				5E82CFB21D5D640000B4CD7E /* CocoaLumberjack.framework in Frameworks */,
@@ -363,6 +373,7 @@
 		5E253E7C1D5C3DB000F8FEAA /* Politicl */ = {
 			isa = PBXGroup;
 			children = (
+				5E933CCB1D5E98550073FD3C /* Networking */,
 				5ED3AB341D5DE88C00722ECB /* Models */,
 				5E2677FC1D5DE5080081C4F4 /* LGSideMenuController */,
 				5E9598BB1D5D7FFE00858B64 /* Supporting Files */,
@@ -423,6 +434,14 @@
 				5E253E941D5C3DB000F8FEAA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E933CCB1D5E98550073FD3C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5E933CCC1D5E988C0073FD3C /* PWPFeedFetcher.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		5E9598BA1D5D7FEB00858B64 /* UI */ = {
@@ -717,6 +736,7 @@
 		F3CAA7E9B6334100EEBFEA27 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5E59E3AC1D5E958B0076A1FC /* Alamofire.framework */,
 				5E18A8371D5E282500E1A769 /* SwiftyJSON.framework */,
 				5E7986681D5CBA20008087C9 /* CocoaLumberjack.framework */,
 				5E7986691D5CBA20008087C9 /* CocoaLumberjackSwift.framework */,
@@ -898,6 +918,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/CocoaLumberjack.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/CocoaLumberjackSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 			);
 			name = "Copy Carthage Frameworks";
 			outputPaths = (
@@ -916,6 +937,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/FBSnapshotTestCase.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 			);
 			name = "Copy Carthage Frameworks";
 			outputPaths = (
@@ -1091,6 +1113,7 @@
 				5EF43FC41D5C7AC500214FEA /* UIView+WMFFrameUtils.m in Sources */,
 				5EF43FC31D5C7AC500214FEA /* UIView+WMFDefaultNib.m in Sources */,
 				5EF43FAA1D5C7AC500214FEA /* NSArray+WMFExtensions.swift in Sources */,
+				5E933CCD1D5E988C0073FD3C /* PWPFeedFetcher.swift in Sources */,
 				5EF43FD31D5C7AC500214FEA /* WMFTaskGroup.m in Sources */,
 				5EF43FCE1D5C7AC500214FEA /* NSBundle+WMFInfoUtils.m in Sources */,
 				65B8CE86D7E25446F4FE6CDB /* AuthorItem.swift in Sources */,
@@ -1118,6 +1141,7 @@
 				65B8C6B544EC5A387173DBCB /* MediumItem.swift in Sources */,
 				65B8C62FAE25B049778B5740 /* CustomFieldsItem.swift in Sources */,
 				65B8C7D989310B5B06C49990 /* TagItem.swift in Sources */,
+				5E933CCE1D5E98A20073FD3C /* PWPFeedFetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

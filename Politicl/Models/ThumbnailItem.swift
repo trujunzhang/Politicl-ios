@@ -6,15 +6,19 @@
 //  Copyright © 2016 djzhang. All rights reserved.
 //
 
-//import Foundation
-//import AlamofireJsonToObjects
-//import EVReflection
-//
-//class ThumbnailItem: EVObject {
-//
-//    var full: MediumItem?
-//    var thumbnail: MediumItem?
-//    var medium: MediumItem?
-//
-//
-//}
+import Foundation
+import SwiftyJSON
+
+class ThumbnailItem {
+
+    var full: MediumItem?
+    var thumbnail: MediumItem?
+    var medium: MediumItem?
+
+    init(json:JSON){
+        full = MediumItem(json: json["full"])
+        thumbnail = MediumItem(json: json["thumbnail"])
+        medium = MediumItem(json: json["medium"])
+    }
+
+}

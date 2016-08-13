@@ -12,6 +12,13 @@ PODS:
     - libextobjc/RuntimeExtensions
   - libextobjc/RuntimeExtensions (0.4.1)
   - Masonry (0.6.2)
+  - Mockingjay (1.2.2):
+    - Mockingjay/Core (= 1.2.2)
+    - Mockingjay/XCTest (= 1.2.2)
+  - Mockingjay/Core (1.2.2):
+    - URITemplate (~> 1.3)
+  - Mockingjay/XCTest (1.2.2):
+    - Mockingjay/Core
   - Nocilla (0.11.0)
   - NSDate-Extensions (0.0.1)
   - OCHamcrest (4.2.0)
@@ -25,6 +32,7 @@ PODS:
   - SDWebImage/Core (3.7.2)
   - TUSafariActivity (1.0.4)
   - Tweaks (2.0.0)
+  - URITemplate (1.3.1)
 
 DEPENDENCIES:
   - BlocksKit/Core (~> 2.2.0)
@@ -33,6 +41,7 @@ DEPENDENCIES:
   - KVOController
   - libextobjc/EXTScope (~> 0.4.1)
   - Masonry (= 0.6.2)
+  - Mockingjay
   - Nocilla
   - NSDate-Extensions (from `git@github.com:wikimedia/NSDate-Extensions.git`)
   - OCHamcrest (~> 4.2.0)
@@ -63,6 +72,7 @@ SPEC CHECKSUMS:
   KVOController: 321b5fc59300fcaabd42c0f679baa7a27efbb2fd
   libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
   Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  Mockingjay: 5de65f14108473afc6727e05df9a3ecc9cef8562
   Nocilla: 7af7a386071150cc8aa5da4da97d060f049dd61c
   NSDate-Extensions: 5bd64f8815dc6b3c9d08e1f620229567e2b4771c
   OCHamcrest: c14c0b3f4c4e99363e5b87d97bae38c4438b6d5d
@@ -71,7 +81,8 @@ SPEC CHECKSUMS:
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
   TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
   Tweaks: 524fa47636cce3bf3a4d9156e980f10ae9480e81
+  URITemplate: 398a48d6559e23b77bd41176b675b017ad1fc959
 
-PODFILE CHECKSUM: a9aefff8bd0833eba06a05a21586f8b8df61a4c1
+PODFILE CHECKSUM: e4bf71634d2485a924da8b014142e8924baf6220
 
 COCOAPODS: 1.0.1
